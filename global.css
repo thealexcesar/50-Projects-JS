@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    /* Pantone Colors */
+    --279-C: #418FDE;
+    --2727-C: #307FE2;
+    --303-C: #002A3A;
+    --420-C: #C7C9C7;
+    --656-C: #DDE5ED;
+}
+
 * { box-sizing: border-box; }
 
 body {
@@ -9,5 +19,4 @@ body {
     height: 100vh;
     overflow: hidden;
     margin: 0;
-    background-color: #22292f;
 }

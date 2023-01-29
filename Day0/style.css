@@ -1,7 +1,8 @@
+body { background-color:var(--303-C); }
 .container { display:flex; width:90vw; }
 
 .panel {
-    box-shadow: 0 0 1rem #6c6c6c;
+    box-shadow: 0 0 1rem var(--420-C);
     background-size: auto 100%;
     background-position: center;
     background-repeat: no-repeat;
