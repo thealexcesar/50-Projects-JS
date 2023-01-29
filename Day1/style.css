@@ -1,5 +1,5 @@
-body { background-color: var(--656-C) }
-.container { text-align:center; }
+body { background-color: var(--656-C); }
+.container { text-align:center; color: var(--303-C) }
 
 .progress-container {
     display: flex;
@@ -30,7 +30,6 @@ body { background-color: var(--656-C) }
     left:0;
     transform: translateY(-50%);
     height: 4px;
-    width: 40%;
     z-index: -1;
     transition: .4s ease;
 }
@@ -44,6 +43,7 @@ body { background-color: var(--656-C) }
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     border: 3px solid var(--420-C);
     transition: .4s ease;
 }
@@ -65,7 +65,8 @@ body { background-color: var(--656-C) }
 }
 
 .btn:focus { outline:none; }
-.btn:disabled {
+
+.btn.disabled {
     background-color: var(--420-C);
     cursor: not-allowed;
 }
